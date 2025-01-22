@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 5px 10px;
+    font-size: 14px;
+  }
+  
+  html {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  @media (max-width: 480px) {
+    * {
+      padding: 0px;
+      margin: 2px 10px;
+      font-size: 14px;
+    }
+  }
