@@ -33,16 +33,16 @@ This project is a Delivery Order Price Calculator UI (DOPC) built with React, Ty
     
 2. Click "Calculate Delivery Price" to see the total cost breakdown
 
-### Venue Slug
+## Venue Slug
 
-    The venue slug home-assignment-venue-helsinki returns specific delivery distance ranges that affect the delivery fee calculation. 
+The venue slug home-assignment-venue-helsinki returns specific delivery distance ranges that affect the delivery fee calculation. 
+
+If a user’s location is 600m away from the venue:
     
-    If a user’s location is 600m away from the venue:
+Base price from API: 1.99€
+Additional charge: 1.00€ + (1 * 600 / 10) = 1.00€ + 0.60€ = 1.60€
+Total delivery fee: 1.99€ + 1.60€ = 3.59€
     
-    Base price from API: 1.99€
-    Additional charge: 1.00€ + (1 * 600 / 10) = 1.00€ + 0.60€ = 1.60€
-    Total delivery fee: 1.99€ + 1.60€ = 3.59€
+If the user is 1000m or more away, the venue does not deliver to that location.
     
-    If the user is 1000m or more away, the venue does not deliver to that location.
-    
-    Let me know if you need more details! 🚀
+Let me know if you need more details!
