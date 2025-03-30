@@ -1,6 +1,6 @@
 # Delivery Calculator
 
-This project is a Delivery Order Price Calculator UI (DOPC) built with React, TypeScript, and Vite. It allows users to calculate the total price of a delivery order, including cart value, small order surcharge, and delivery fee. The UI ensures validation, accessibility, and user-friendly feedback.
+This project is a Delivery Order Price Calculator UI (DOPC) built with React and TypeScript. It allows users to calculate the total price of a delivery order, including cart value, small order surcharge, and delivery fee. The UI ensures validation, accessibility, and user-friendly feedback.
 
 ![login page](/public/dc.png)
 
